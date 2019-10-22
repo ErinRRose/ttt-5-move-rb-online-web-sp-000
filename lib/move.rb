@@ -7,7 +7,7 @@ def display_board(board)
 end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(array, index, value="X")
-  Array[index] = value
+  array[index] = value
 end
 def input_to_index(index)
   index = index.to_i - 1
