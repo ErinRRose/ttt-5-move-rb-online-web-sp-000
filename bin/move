@@ -2,7 +2,7 @@
 
 require_relative '../lib/move.rb'
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", "?"]
 player = "Erin"
 
 puts "Welcome to Tic Tac Toe, #{player}!"
