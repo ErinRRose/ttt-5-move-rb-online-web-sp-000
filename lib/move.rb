@@ -9,3 +9,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(array, index, value)
   array[index] = value
 end
+def input_to_index(index)
+  index -= 1
+end
