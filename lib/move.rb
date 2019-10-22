@@ -6,7 +6,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def move(array, index, value)
+def move(array, index, value = "X")
   array[index] = value
 end
 def input_to_index(index)
