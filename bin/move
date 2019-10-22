@@ -1,8 +1,12 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-puts "Welcome to Tic Tac Toe!"
+player = "Erin"
+
+puts "Welcome to Tic Tac Toe, #{player}!"
 puts "Where would you like to go?"
+
 move(board, input_to_index(gets.strip))
 display_board(board)
